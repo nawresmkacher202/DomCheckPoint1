@@ -1,0 +1,39 @@
+#cart {
+    width: 300px;
+    margin: auto
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd
+  }
+  
+  .cart-item img {
+    width: 50px
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center
+  }
+  
+  .quantity button {
+    margin: 0 5px
+  }
+  
+  button {
+    cursor: pointer
+  }
+  
+  #total {
+    font-weight: bold;
+    text-align: right
+  }
+  
+  #total-price {
+    font-size: 1.2em
+  }
+  
